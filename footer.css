@@ -1,0 +1,126 @@
+.footer{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0ch;
+   object-fit: contain;
+    width: 97vw;
+    height: 60px;
+    padding: 15px;
+    background-color: rgba(88, 87, 87, 0.808);
+}
+
+.footerleft{
+    flex: 0.1;
+    display: flex;
+    margin-bottom: 0px;
+    max-width: 10vw;
+    justify-content: space-between;
+    object-fit: contain;
+    color: white;
+
+    
+    
+}
+
+.footerleft img{
+   margin-left: 1vw;
+  
+   
+}
+
+.songinfo{
+    margin-left: 1vw;
+
+}
+
+.footerleft img{
+    object-fit: contain;
+    height: 60px;
+    
+}
+
+.footercentre{
+    flex: 0.3;
+    align-items: center;
+    display: flex;
+    object-fit: contain;
+
+    justify-content: space-between;
+    max-width: 20vw;
+    color: aliceblue;
+    padding-top: 10px;
+    margin-left: 35%;
+}
+
+.belowcenter p{
+    margin: 0px 10px;
+    margin-bottom: 1px;
+    font-size: 13px;
+    font-weight: 1000;
+}
+
+.belowcenter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7vw;
+    object-fit: contain;
+
+}
+
+.slider_center{
+    width: 30vw;
+    
+}
+
+.footericon:hover{
+     transform: scale(1.2);
+     transition: transform 0.2s ease-in-out ;
+     cursor: pointer;
+}
+
+
+
+
+.footerright{
+    
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+     color: aliceblue;
+     object-fit: contain;
+
+    
+     /* padding-left: 1vw; */
+     max-width: 10%;
+
+}
+
+.volumedown:hover{
+ cursor: pointer;
+ transform: scale(1.1);
+}
+
+.volumedown{
+    margin-right: 10px;
+    padding-bottom: 3px;
+    margin-left: 5px;
+}
+
+.que{
+    color: rgb(174, 212, 116);
+}
+.que:hover{
+cursor: pointer;
+color: white;
+transform: scale(1.1);
+
+}
+.slider{
+    max-width: 10%;
+}
+
+
+

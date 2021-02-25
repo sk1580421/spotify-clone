@@ -1,0 +1,30 @@
+.song:hover{
+    background-color: rgb(110, 107, 107);
+}
+.song{
+    display: flex;
+    padding: 10px;
+
+}
+.line hr{
+    
+    border: 0.001px solid rgba(128, 128, 128, 0.055);
+    width: 70%;
+    margin-top: 3px;
+    height: 0;
+
+}
+
+.song img:hover{
+    cursor: pointer;
+}
+.song img{
+    object-fit: contain;
+    height: 40px;
+    margin-right: 0px;
+}
+
+.songinfo h4:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

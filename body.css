@@ -1,0 +1,85 @@
+.body hr{
+    margin-bottom:30px ;
+    border: 0.1px solid rgba(94, 91, 91, 0.425);
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+
+
+}
+.body{
+    flex: 0.84;
+    height: 100vh;
+    background: linear-gradient(rgb(80, 63, 80), black) ;
+    color: white;
+    max-width: 84vw;
+}
+
+.bodyinfo{
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.bodydesc{
+    padding: 10px;
+    
+}
+
+
+
+.bodydesc h2{
+    font-size: 30px;
+}
+
+.bodybanner img{
+    height: 9vw;
+    margin-left: 20px;
+    margin-top: 10px;
+    box-shadow:  10px 10px 50px rgba(10, 10, 10, 0.692);
+}
+
+.bodyicons{
+    align-items: center;
+   margin-left: 25px;
+   padding: 19px 0px;
+}
+
+.playbutton:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 200ms ease-in;
+
+}
+.playbutton{
+    font-size: 60px !important;
+    color: rgb(134, 223, 0);
+   
+
+}
+
+
+
+.heart:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 200ms ease-in;
+}
+.heart{
+    padding: 13px;
+    font-size: 30px !important;
+
+}
+
+.dots:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+
+
+}
+.dots{
+    padding-bottom: 12px;
+
+}

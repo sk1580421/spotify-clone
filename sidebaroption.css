@@ -1,0 +1,39 @@
+.sidebaroption{
+    color: rgb(158, 155, 155);
+    cursor: pointer;
+    padding: 2px;
+    transition: 150ms color ease-in;
+    display: flex;
+    align-items: center;
+    font-size: 10;
+    height: 21px;
+    
+
+
+}
+
+.sidebaroption:hover{
+    color: white;
+}
+
+.icon {
+    padding-right: 5px;
+
+}
+
+ .sidebar hr {
+   
+    border: 0.01px solid rgba(128, 128, 128, 0.733);
+    width: 95%;
+    margin-top: 3px;
+    height: 0;
+
+    
+ 
+
+}
+
+.sidebarplaylists{
+    font-size: 12px;
+
+}

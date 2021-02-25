@@ -1,0 +1,26 @@
+.sidebaropt{
+    color: rgb(158, 155, 155);
+    cursor: pointer;
+    /* padding: 4px; */
+    transition: 150ms color ease-in;
+    display: flex;
+    align-items: center;
+    font-size: 10;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+
+
+}
+
+.sidebaropt:hover{
+    color: white;
+}
+
+.icon {
+    padding-right: 5px;
+
+}
+

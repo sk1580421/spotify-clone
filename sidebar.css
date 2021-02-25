@@ -1,0 +1,24 @@
+.sidebar{
+   
+    flex: 0.18;
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+    padding-left: 20px  ;
+    max-width: 16vw;
+}
+
+.sidebarlogo:hover{
+    cursor: pointer;
+}
+.sidebarlogo{
+    height: 55px;
+    margin-right: auto ;
+    padding-top: 7px;
+    margin-bottom: 10px;
+}
+
+.sidebarplaylists{
+    padding: 5px;
+}
+
